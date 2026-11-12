@@ -6,6 +6,9 @@ analyzer:
     - tests/e2e/.samples/**
     # The playground app has its own pubspec and analysis_options; analyze it from playground/.
     - playground/**
+    - build/**
+    - android/**
+    - ios/**
 
 linter:
   rules:
